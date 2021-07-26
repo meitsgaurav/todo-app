@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Datetime from "react-datetime";
 import TodoItem from "./Components/TodoItem";
-import Clock from "./Components/clock"
+// import Clock from "./Components/clock"
 import alertify from "alertifyjs";
 
 import "alertifyjs/build/css/alertify.css";
