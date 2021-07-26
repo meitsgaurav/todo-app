@@ -1,10 +1,42 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  height: 100vh;
+  overflow: auto;
+}
+.content {
+  display: flex;
+  flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-control {
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  margin-right: 1rem;
+  border: 0;
+}
+
+.react-time-picker__wrapper {
+  padding: 0.1rem 1rem;
+  background-color: white;
+}
+
+.addNew {
+  margin: auto;
+  margin-bottom: 2rem;
+  display: flex;
+  padding: 0.5rem 1rem;
+}
+
+.todoItem {
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 40%;
+}
+
+.alertify-notifier.ajs-right .ajs-message.ajs-visible {
+  background-color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,6 +58,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.clock{
+  display: inline-block;
 }
 
 @keyframes App-logo-spin {
